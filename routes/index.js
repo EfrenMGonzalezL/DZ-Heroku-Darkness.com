@@ -9,7 +9,7 @@ router.get('/contact', (req, res) => {
     res.render('pages/contact.ejs', { title: 'Contact' })
 });
 router.get('/about', (req, res) => {
-    res.render('pages/About.ejs', { title: 'about' })
+    res.render('pages/about.ejs', { title: 'about' })
 });
 
 module.exports = router;
