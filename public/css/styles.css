@@ -1,0 +1,155 @@
+body {
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.header-img {
+    width: 100%;
+    height: 400px;
+    background: url('');
+    background-size: cover;
+    position: absolute;
+}
+
+.TextoCentrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Caja donde se encuentran las redes sociales */
+
+.Redes {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.btn-fb {
+    position: absolute;
+    background-color: DodgerBlue;
+    /* Blue background */
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* White text */
+    padding: 12px 16px;
+    /* Some padding */
+    font-size: 16px;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    left: 16px;
+    bottom: 8px;
+    border-radius: 50%;
+}
+
+.btn-twt {
+    position: absolute;
+    background-color: DodgerBlue;
+    /* Blue background */
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* White text */
+    padding: 12px 16px;
+    /* Some padding */
+    font-size: 16px;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    left: 60px;
+    bottom: 8px;
+    border-radius: 50%;
+}
+
+.btn-yt {
+    position: absolute;
+    background-color: DodgerBlue;
+    /* Blue background */
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* White text */
+    padding: 12px 16px;
+    /* Some padding */
+    font-size: 16px;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    left: 110px;
+    bottom: 8px;
+    border-radius: 50%;
+}
+
+.btn-ig {
+    position: absolute;
+    background-color: DodgerBlue;
+    /* Blue background */
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* White text */
+    padding: 12px 16px;
+    /* Some padding */
+    font-size: 16px;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    left: 159px;
+    bottom: 8px;
+    border-radius: 50%;
+}
+
+/* Darker background on mouse-over */
+
+.btn-fb:hover {
+    background-color: RoyalBlue;
+}
+
+.btn-twt:hover {
+    background-color: RoyalBlue;
+}
+
+.btn-yt:hover {
+    background-color: RoyalBlue;
+}
+
+.btn-ig:hover {
+    background-color: RoyalBlue;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the menu.menu_horizontal (.icon) */
+
+@media screen and (max-width: 992px) {
+    .contenedor-fluido {
+        display: none;
+    }
+}
+
+/* The "responsive" class is added to the menu.menu_horizontal with JavaScript when the user clicks on the icon. This class makes the menu.menu_horizontal look good on small screens (display the links vertically instead of horizontally) */
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+.ml-70 {
+    margin-left: 78%;
+}
