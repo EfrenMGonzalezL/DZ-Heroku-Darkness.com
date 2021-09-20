@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 5000
 //settings
 express()
     .use(express.static(path.join(__dirname,'public')))
-    .use(require('routes/index.js'))
+    .use(require('./routes/index.js'))
     .set('views',path.join(__dirname,'views'))
     .set('view engine','ejs')
     .get('/', (req, res) => res.render('pages/index'))

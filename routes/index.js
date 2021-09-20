@@ -2,14 +2,14 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.render('index.html', { title: 'DarknessZ3R0' })
+    res.render('pages/index.ejs', { title: 'DarknessZ3R0' })
 });
 
 router.get('/contact', (req, res) => {
-    res.render('contact.html', { title: 'Contact' })
+    res.render('pages/contact.ejs', { title: 'Contact' })
 });
 router.get('/about', (req, res) => {
-    res.render('About.html', { title: 'about' })
+    res.render('pages/About.ejs', { title: 'about' })
 });
 
 module.exports = router;
