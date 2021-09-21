@@ -6,10 +6,13 @@ router.get('/', (req, res) => {
 });
 
 router.get('/contact', (req, res) => {
-    res.render('pages/contact.ejs', { title: 'Contact' })
+    res.render('pages/contact.ejs', { title: 'Contactame!' })
 });
 router.get('/about', (req, res) => {
-    res.render('pages/About.ejs', { title: 'about' })
+    res.render('pages/About.ejs', { title: 'Acerca de mi.' })
 });
+router.get('/thanks', (req, res)=>{
+    res.render('pages/thanks.ejs', { title: 'Gracias!' })
+})
 
 module.exports = router;
