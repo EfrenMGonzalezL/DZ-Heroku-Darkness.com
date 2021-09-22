@@ -141,6 +141,9 @@ footer {
     .contenedor-fluido {
         display: none;
     }
+    #redes{
+        display: none;
+    }
 }
 
 /* The "responsive" class is added to the menu.menu_horizontal with JavaScript when the user clicks on the icon. This class makes the menu.menu_horizontal look good on small screens (display the links vertically instead of horizontally) */

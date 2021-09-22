@@ -5,6 +5,7 @@ $(document).ready(function(){
         $("#Contenido").load("/about_");
     });
   });
+  //ocultar footer
   $(window).scroll(function() {
     if ($(this).scrollTop() > 0) {
       $('.fondo').fadeOut();
