@@ -1,10 +1,14 @@
-$(document).ready(function() {
-    var url = window.location;
-    // Will only work if string in href matches with location
-    $('ul.nav a[href="' + url + '"]').parent().addClass('active');
-
-    // Will also work for relative and absolute hrefs
-    $('ul.nav a').filter(function() {
-        return this.href == url;
-    }).parent().addClass('active').parent().parent().addClass('active');
-});
+$(document).ready(function(){
+    $("#AboutUs").click(function(){ //variable #visible de un id de algun boton o lo que gusten
+        $("#img-first").hide();
+        $("#img-second").load("/img");
+        $("#Contenido").load("/about_");
+    });
+  });
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 0) {
+      $('.fondo').fadeOut();
+    } else {
+      $('.fondo').fadeIn();
+    }
+  });

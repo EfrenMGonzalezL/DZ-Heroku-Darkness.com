@@ -14,5 +14,11 @@ router.get('/about', (req, res) => {
 router.get('/thanks', (req, res)=>{
     res.render('pages/thanks.ejs', { title: 'Gracias!' })
 })
+router.get('/about_', (req, res) => {
+    res.render('partials/About-info.ejs')
+})
+router.get('/img', (req, res) => {
+    res.render('partials/img.ejs')
+})
 
 module.exports = router;
