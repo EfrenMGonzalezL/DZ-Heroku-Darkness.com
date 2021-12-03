@@ -134,6 +134,10 @@ footer {
 .btn-ig:hover {
     background-color: RoyalBlue;
 }
+.video-size{
+    width: 520px;
+    height: 320px;
+}
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the menu.menu_horizontal (.icon) */
 
@@ -143,6 +147,10 @@ footer {
     }
     #redes{
         display: none;
+    }
+    .video-size{
+        width: 320px;
+        height: 240px;
     }
 }
 
